@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+    <head>
+        <title>List Users Page</title>
+        <meta charset="UTF-8"/> 
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  		<script src="bootstrap/js/bootstrap.min.js"></script>
+        <link href="css/main.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+	  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<div class="container">
+		  <div class="collapse navbar-collapse" id="navbar1">
+			<ul class="navbar-nav ml-auto">
+			  <li class="nav-item"> <a class="nav-link text-white" href="users.html">Users</a></li>
+			  <li class="nav-item"> <a class="nav-link text-white" href="books.html">Books</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+		<div class="py-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="">List of users</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+							<tr>
+								<th scope="col" class="text-center">user #</th>
+								<th scope="col" class="text-center">FirstName</th>
+								<th scope="col" class="text-center">LastName</th>
+								<th scope="col" class="text-center">Birthdate</th>
+								<th scope="col"></th>
+							</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td scope="col">1</td>
+								<td>Jean-Yves</td>
+								<td>Martin</td>
+								<td>1963-08-12</td>
+								<td class="text-center">
+									<form action="editUser" method="POST">
+										<button name="edit" class="btn"><img src="img/edit.png" alt="edit" class="icon" /></button>
+										<button name="delete" class="btn"><img src="img/delete.png" alt="delete" class="icon" /></button>
+									</form>
+								</td>
+							</tr>
+							</tbody>
+							<tfoot>
+							<tr id="addNew">
+								<td scope="col" colspan="4"></td>
+								<td class="text-center"><button class="btn"><img src="img/plus.png" alt="add" class="icon" /></button></td>
+							</tr>
+							</tfoot>
+						</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </body>
+</html>
+

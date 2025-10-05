@@ -1,0 +1,44 @@
+body {
+	background-color:white;
+}
+
+table {
+	border: 1px solid green;
+	color:forestgreen;
+}
+
+tr{
+	background-color:white;
+	color:forestgreen;
+}
+
+td{
+	border:1px solid green;
+	color:forestgreen;
+}
+
+th{
+	background-color:yellowgreen;
+	color:white;
+}
+
+h1 {
+	margin: 0 0 10px;
+	font-size: 20px;
+	font-weight: bold;
+	color:green;
+}
+
+input {
+	display: inline;
+	width: inherit;
+	padding: 2px;
+	background: rgba(0,0,0,.05);
+	border: 1px solid rgba(0,0,0,.15);
+	box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+	border-radius: 3px;
+	font-size: 14px;
+	&:invalid:not(:focus) {
+		border-color: red;
+	}
+}

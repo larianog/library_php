@@ -1,0 +1,22 @@
+body {
+	background-color:white;
+}
+
+p.error {
+	margin: 5px 0;
+	color: red;
+} 
+
+p {
+	margin: 5px 0;
+	color: red;
+} 
+
+a, a:focus {
+    color: blue!important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple!important;
+}
